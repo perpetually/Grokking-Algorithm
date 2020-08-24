@@ -9,6 +9,8 @@ stations["kfour"] = set(["nv", "ut"])
 stations["kfive"] = set(["ca", "az"])
 
 final_stations = set()
+print(stations)
+print("*"*100)
 
 while states_needed:
   best_station = None
